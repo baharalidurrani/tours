@@ -9,7 +9,7 @@ var tour = new Tour({
       placement: "auto"
     },
     {
-      element: "#tinymce",
+      element: $("#product-description_ifr").contents().find("#tinymce"),
       title: "Title of my step 2",
       content: "Content of my step 2",
       placement: "auto"
