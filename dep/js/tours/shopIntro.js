@@ -32,8 +32,9 @@ introJs()
       intro: "This is step 1"
     },
     {
-      element: document.querySelector("#product-description_ifr").contentWindow
-        .document.body,
+      element: document
+        .querySelector("#product-description_ifr")
+        .contentWindow.document.querySelector("#tinymce"),
       intro: "This is step 2"
     },
     {
