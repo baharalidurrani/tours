@@ -1,6 +1,6 @@
 console.log("intro loaded....");
 // Instance the tour
-const steps = [
+var steps = [
   {
     element: "#PolarisTextField1",
     title: "Title of my step 1",
