@@ -20,21 +20,22 @@ console.log("intro loaded....");
 //   elem.setAttribute("data-intro", steps[i].title);
 // }
 
-introJs().addSteps([
-  {
-    element: document.querySelector(
-      "#root > div > div.main > div > div > fieldset:nth-child(4) > a:nth-child(2)"
-    ),
-    intro: "This is step 1"
-  },
-  {
-    element: document.querySelector(
-      "#root > div > div.main > div > div > fieldset:nth-child(4) > a:nth-child(3)"
-    ),
-    intro: "This is step 2"
-  }
-]);
-introJs().start();
+introJs()
+  .addSteps([
+    {
+      element: document.querySelector(
+        "#root > div > div.main > div > div > fieldset:nth-child(4) > a:nth-child(2)"
+      ),
+      intro: "This is step 1"
+    },
+    {
+      element: document.querySelector(
+        "#root > div > div.main > div > div > fieldset:nth-child(4) > a:nth-child(3)"
+      ),
+      intro: "This is step 2"
+    }
+  ])
+  .start();
 
 // Initialize the tour
 // tour.init();
